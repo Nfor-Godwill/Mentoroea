@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    font-family: poppins;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.25rem;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(227, 234, 232);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container p {
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+ul.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+ul.nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.sign {
+    display: flex;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    gap: 3rem;
+}
+
+.sign li {
+    background-color: rgb(255, 255, 255);
+}
+
+.sign a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+a.signUp {
+    background-color: blue;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.signUp:hover {
+    background-color: rgb(3, 3, 156);
+}
+
+.signIn:hover {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 156);
+}
+
+section.hero {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    margin: 1rem;
+    border-radius: 0.75rem;
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    flex-direction: column;
+    padding: 4rem 0rem;
+    display: flex;
+}
+
+.review button {
+    padding: 5rem;
+    margin-left: 2.15rem;
+    padding: 0rem 2rem;
+    height: 5vh;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 4rem;
+}
+
+span.rev {
+    margin-left: 1rem;
+}
+
+i.fa-star {
+    color: rgb(170, 255, 0);
+}
+
+div.desc {
+    margin-left: 2.15rem;
+    width: 50rem;
+    margin-bottom: 2rem;
+
+}
+
+.discover {
+    font-size: 5rem;
+    font-family: Bricolage Grotesque;
+}
+
+.get-started {
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.75rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    justify-content: space-between;
+}
+
+.fa-arrow-right {
+    padding-right: 1rem;
+    font-size: 2rem;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    margin-left: 2rem;
+    justify-content: center;
+}
+
+
+.get-started:hover {
+    background-color: rgb(3, 3, 156);
+}
+
+.free {
+
+    margin-left: 3rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.75rem;
+    border-width: 1px;
+    border-color: blue;
+    color: blue;
+    background-color: transparent;
+}
+
+.free:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 156);
+}
+
+.buttons {
+    margin-top: 5rem;
+    margin-left: 2.15rem;
+}
+
+.hero-container {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.hero img {
+    height: auto;
+    width: 52rem;
+    border-radius: 2rem;
+    margin-right: 2.5rem;
+    object-fit: contain;
+}
+
+/* .second-hero img {
+    
+    border-radius: 2rem;
+    object-fit: contain;
+    justify-content: center;
+    margin-left: 2.15rem;
+} */
+.second-hero {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    margin: 1rem;
+    border-radius: 0.75rem;
+    background-color: rgb(255, 255, 255);
+    min-height: 70vh;
+    flex-direction: column;
+    padding: 4rem 0rem;
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    min-width: 60rem;
+    max-height: 5rem;
+    background-color: rgb(227, 234, 232);
+    border-radius: 0.75rem;
+    padding: 5rem;
+    margin-top: 3rem;
+    margin-right: 2.5rem;
+    align-items: center;
+    
+}
+
+.main-content p {
+    margin-left: 10rem;
+    
+    
+}
+
+.main-content h3 {
+    font-size: 1.75rem;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.main img {
+    height: auto;
+    width: 52rem;
+    padding-top: 0;
+    margin-left: 2.15rem;
+    object-fit: cover;
+    border-radius: 0.75rem;
+}
+
+.content-make {
+    margin: 1rem;
+    border-radius: 0.75rem;
+    background-color: rgb(255, 255, 255);
+    min-height: 70vh;
+    padding: 4rem 0rem;
+    text-align: center;
+}
+
+.diff {
+    width: 40rem;
+    align-content: center;
+    display: inline-block;
+
+}
+
+.diff h3 {
+    font-family: Bricolage Grotesque;
+    font-size: 2.5rem;
+}
+
+.diff p {
+    margin-top: 2rem;
+}
+
+.diff-cart {
+    background-color: rgb(227, 234, 232);
+    height: 30rem;
+    width: 27rem;
+    border-radius: 0.75rem;
+    padding: 3rem;
+    margin: 2.5rem;
+}
+
+/* .diff-cart h3 {
+    margin-top: 9rem;
+    text-align: left;
+}
+
+.diff-cart p {
+    text-align: left;
+    font-size: 1rem;
+} */
+ .text{
+    margin-top: 13rem;
+    text-align: left;
+    font-size: 1rem;
+ }
+
+.spread {
+    display: flex;
+    justify-content: center;
+}
